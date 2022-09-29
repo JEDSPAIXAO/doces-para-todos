@@ -10,7 +10,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-image: none;
+    height: 40px;
 }
 
 .nav_1 a  {
@@ -23,7 +23,7 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
     padding: 10px 15px;
-    background-color: #ffffff;
+    background-color: khaki;
     border-radius: 25px;
 
 }
@@ -37,9 +37,20 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    
-    
+    padding: 20px; 
+}
+.nav_2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_2 a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: khaki;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    border-radius: 25px;
 }
 
 
@@ -67,7 +78,7 @@ body {
    }
    
    .slide img{
-    width: 750px;
+    width: 800px;
    }
    
    .manual-navigation{
@@ -167,5 +178,37 @@ body {
 
     
 }
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   position: sticky;
+   top: 10px;
+   border-top: 10px;
+   font-family: 'Lora', serif;
+ }
+ 
+ li {
+   float: left;
+   font-family: 'Lora', serif;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover {
+   font-family: 'Lora', serif;
+ }
+ 
+
 
 
