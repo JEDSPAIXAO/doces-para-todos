@@ -1,16 +1,23 @@
 body {
-    background-color: Khaki;
+    background-color: #FFDEAD; 
+    
 }
 
-
+/* naves */
 .nav_1 {
-    background-color: #b35411 ;
+    background-color: #F4A460 ;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     height: 40px;
+    border-radius: 50px;
+   
+    
+    
+  
+    
 }
 
 .nav_1 a  {
@@ -31,13 +38,14 @@ body {
 
 
 .nav_2 {
-    background-color: #b35411 ;
+    background-color: #F4A460 ;
     
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 20px; 
+    border-radius: 50px;
 }
 .nav_2 a{
     text-decoration: none;
@@ -53,6 +61,7 @@ body {
     border-radius: 25px;
 }
 
+/* .slide */
 
 .slider{
     margin: 0 auto;
@@ -210,5 +219,41 @@ ul {
  }
  
 
+ /* image da pagina inicial */
+
+ .bolo_cenoura {
+    border-radius: 25px;
+ }
+
+ .barra_chocolate {
+    border-radius: 25px;
+ }
 
 
+ .trufas {
+    border-radius: 25px;
+ }
+
+.trufa_2 {
+    margin-top: 10px;
+    border-radius: 160px;
+
+}
+
+/* imagem da pegina da baras.html */
+
+.barra_1 {
+    border-radius: 25px;
+ }
+
+ .barra_2 {
+    border-radius: 25px;
+ }
+ 
+ .barra_3 {
+    border-radius: 25px;
+ } 
+ 
+ .barra_4 {
+    border-radius: 25px;
+ }
